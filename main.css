@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-custom-bg {
+    background-color: #EDF7FF;
+}
+
+.logo {
+    font-family: 'Rock Salt', cursive;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.25);
+}
+
+.home-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8vh;
+}
+
+.home-img {
+    height: 75vh;
+    width: 50vw;
+}
+
+.home-content {
+    margin: 20vh auto;
+}
+
+.name {
+    font-size: 500%;
+}
+
+.title {
+    font-size: 200%;
+}
+
+ul.contact-icons {
+    font-size: 200%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.contact-icons-item {
+    transition: 0.3s;
+}
+
+.contact-icons-item a {
+    color: #000;
+}
+
+.contact-icons-item:hover{
+    transform: scale(1.25);
+}
+
+.heading {
+    position: relative;
+    margin: 20vh 0 0 10vw;
+}
+
+.bg-text-about {
+    position: absolute;
+    margin: 0 0 0 15vw;
+    font-size: 7em;
+    font-weight: 800;
+    text-transform: uppercase;
+    opacity: 0.07;
+    top: 98vh;
+    left: -5vw; 
+}
+
+.bg-text-skills {
+    position: absolute;
+    font-size: 7em;
+    font-weight: 800;
+    text-transform: uppercase;
+    opacity: 0.07;
+    top: 208vh;
+    left: 10vw;
+}
+
+.about-container {
+    height: 80vh;
+    width: 80vw;
+    background-color: #EDF7FF;
+    margin: 5vw auto;
+    border-radius: 5%;
+}
+
+.about-content {
+    margin: 8vh 3vw;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin: 8vh auto;
+}
+
+.skills {
+    width: 80vw;
+    margin: 8vh auto;
+}
+
+.icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transition: ease-in-out 0.3s;
+    border-radius: 5px;
+}
+
+.icon-box i {
+    font-size: 32px;
+    padding-right: 10px;
+}
+
+.bg-text-projects {
+    position: absolute;
+    font-size: 7em;
+    font-weight: 800;
+    text-transform: uppercase;
+    opacity: 0.07;
+    top: 266vh;
+    left: 10vw;
+}
+
+.projects-container {
+    height: 30vh;
+    width: 80vw;
+    background-color: #EDF7FF;
+    margin: 5vw auto;
+    border-radius: 5%;
+}
+
+.coming-soon-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+.bg-text-blog {
+    position: absolute;
+    font-size: 7em;
+    font-weight: 800;
+    text-transform: uppercase;
+    opacity: 0.07;
+    top: 326vh;
+    left: 10vw;
+}
+
+.bg-text-contact {
+    position: absolute;
+    font-size: 7em;
+    font-weight: 800;
+    text-transform: uppercase;
+    opacity: 0.07;
+    top: 420vh;
+    left: 10vw;
+}
+
+.blog-posts-container {
+    margin: 5vw auto;
+    width: 80vw;
+}
+
+.blog-posts {
+    display: flex;
+    flex-direction: row;
+}
+
+img.card-img-top  {
+    height: 30vh;
+    width: 25vw;
+}
+
+.card {
+    width: 50%;
+    align-items: center;
+    text-align: justify;
+    margin: 0 2%;
+    padding: 0% 2%;
+}
+
+.contact-section-container {
+    width: 80vw;
+    margin: 5vw auto;
+}
+
+.get-in-touch-text {
+    text-align: center;
+}
+
+.contact-icons-end {
+    font-size: 200%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-around;
+    margin: 2% auto;
+}
+
+.contact-form-container {
+    height: 60vh;
+    width: 60vw;
+    background-color: #EDF7FF;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    border-radius: 5%;
+}
+
+.contact-form {
+    width: 50%;
+    margin: auto;
+}
+
+.footer {
+    height: 30vh;
+    background-color: #273036;
+    color: #EDF7FF;
+}
+
+.footer-text {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+a.footer-email{
+    text-decoration: none;
+    color: #EDF7FF;
+}
+
+a.footer-email:hover{
+    color: #EDF7FF;
+}
