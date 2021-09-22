@@ -32,6 +32,10 @@
     margin: 20vh auto;
 }
 
+.hey-there-text {
+    font-size: 145%;
+}
+
 .name {
     font-size: 500%;
 }
@@ -84,20 +88,19 @@ ul.contact-icons {
 }
 
 .about-container {
-    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5vw;
     width: 80vw;
     background-color: #EDF7FF;
     margin: 3vh auto 0 auto;
+    padding: 5vh 5vw;
     border-radius: 5%;
-}
-
-.about-content {
-    margin: 8vh 3vw;
 }
 
 .profile-pic {
     border-radius: 50%;
-    margin: 8vh auto;
 }
 
 .skills-container {
@@ -141,11 +144,8 @@ ul.contact-icons {
 .blog-posts {
     display: flex;
     flex-direction: row;
-}
-
-img.card-img-top  {
-    height: 30vh;
-    width: 25vw;
+    justify-content: space-between;
+    gap: 3%;
 }
 
 .card {
@@ -153,16 +153,17 @@ img.card-img-top  {
     align-items: center;
     text-align: justify;
     margin: 0 2%;
-    padding: 0% 2%;
+    padding: 2% 2%;
 }
 
 .contact-section-container {
     width: 80vw;
-    margin: 3vh auto 0 auto;
+    margin: 0 auto;
 }
 
 .get-in-touch-text {
     text-align: center;
+    padding: 2vh;
 }
 
 .contact-icons-end {
@@ -208,4 +209,119 @@ a.footer-email{
 
 a.footer-email:hover{
     color: #EDF7FF;
+}
+
+@media only screen and (max-width: 415px) {
+
+    .home-container {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 5vh auto;
+        padding: 0 8vw;
+    }
+
+    .home-img {
+        height: 40vh;
+        width: 60vw;
+        margin: 0 auto;
+    }
+
+    .home-content {
+        margin: 0 auto;
+    }
+
+    .hey-there-text {
+        font-size: 120%;
+    }
+
+    .name {
+        font-size: 400%;
+    }
+
+    .title {
+        font-size: 150%;
+    }
+
+    ul.contact-icons {
+        font-size: 200%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .bg-text {
+        display: none;
+    }
+
+    .section-container {
+        margin: 0;
+    }
+
+    .heading {
+        position: relative;
+        margin: 0 0 0 10vw;
+    }
+
+    .mt-5 {
+        margin-top: 0;
+    }
+
+    .about-container {
+        flex-direction: column;
+        width: 100%;
+        border-radius: 0%;
+    }
+
+    .about-content {
+        margin: 0;
+        padding: 0 5vw;
+        text-align: justify;
+    }
+
+    .profile-pic-container {
+        margin: auto;
+    }
+
+    .profile-pic {
+        border-radius: 50%;
+    }
+
+    .blog-posts {
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+    }
+
+    .card {
+        width: 100%;
+        gap: 3vh;
+    }
+
+    .contact-icons-end {
+        width: 100%;
+        padding: 0;
+        margin: 5% auto;
+    }
+
+    .contact-section-container {
+        width: 100%;
+    }
+
+    .contact-form-container {
+        height: 100%;
+        width: 100%;
+        background-color: #EDF7FF;
+        margin: 0 auto 5vh auto;
+        display: flex;
+        align-content: center;
+        border-radius: 0%;
+    }
+
+    .contact-form {
+        width: 100%;
+        padding: 5vh 5vw;
+    }
 }
