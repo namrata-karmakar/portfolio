@@ -160,6 +160,12 @@ ul.contact-icons {
   padding: 0 0.5rem;
 }
 
+.repo-text {
+  border: 1px solid #273036;
+  border-radius: 3px;
+  padding: 0 0.5rem;
+}
+
 .blog-posts-container {
   margin: 3vh auto 0 auto;
   width: 80vw;
