@@ -159,6 +159,11 @@ ul.contact-icons {
   border-radius: 3px;
   padding: 0 0.5rem;
 }
+.multiple-repos {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
 
 .repo-text {
   border: 1px solid #273036;
